@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!--定义 title keywords description信息 start-->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta name="screen-orientation"content="portrait"/>
+    <title>活动列表</title>
+	<!--引入外部样式-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<script src="js/jquery-1.12.3.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		document.getElementsByTagName("html")[0].style.fontSize = document.documentElement.clientWidth/20+"px";
+	</script>
+</head>
+<body id="list">
+	<img src="images/logo1.png" class="posAbs logo"/>
+	<div class="con">
+		<!--<img src="images/list_bg.png" class="list_bg"/>-->
+		<img src="images/caiqi.png" class="caiqi fl posAbs"/><img src="images/caiqi1.png" class="caiqi1 fr posAbs"/>
+		<div class="nowLoveValueBox">
+			<img src="images/nowLoveValue.png" class="nowLoveValue"/>
+			<img src="images/shoudao.png" class="shoudao posAbs"/><img src="images/geaixin.png" class="aixin posAbs" />
+			<span class="user"><img src="images/user_Title.png" class="user_title"/><span class="user_name">张三丰</span></span>
+			<!--<img src="images/nowLoveValue.png" class="nowLoveValue fclear fl"/>-->
+			<div class="LoveValue posAbs">2351</div>
+			<div class="unit posAbs">赶紧分享给好友，收集更多爱心吧！</div>
+		</div>
+		<div class="getLoveBox">
+			<!--<a href="getLove.html" class="getLove posAbs"><button class="getLove">领取15个爱心</button></a><a href="" class="shareLove posAbs"><button class="shareLove">分享求爱心</button></a>-->
+			<span class="getLove posAbs"><button class="getLove_btn hide">已领取爱心</button><button class="getLove_btn_zc show">领取15个爱心</button></span><span class="shareLove posAbs"><button class="shareLove">分享求爱心</button></span>
+		</div>
+		<div class="tgBox box_l">
+			<dl class="giftPic fl">
+				<dt><img src="images/tgBox.png"/></dt>
+				<dd class="posAbs"><span>①</span> 感恩礼盒</dd>
+			</dl>
+			<dl class="giftDet fl">
+				<dt class="text_r">礼盒随机开出50元京东卡<br />或价值50元平板拖把</dt>
+				<dd class="text_r">剩余数量 :<span class="tgNum">100</span>个</dd>
+			</dl>
+			<div class="openBox"><span><span class="unit">所需爱心</span></span><span class="loveNum">66</span></span><a href=""><img src="images/openBox.png"/></a></div>
+			<img src="images/xian.png" class="xian"/>
+		</div>
+		<div class="annattoBox box_r">
+			<dl class="giftPic">
+				<dt><img src="images/annattoBox.png"/></dt>
+				<dd class="posAbs"><span>②</span> 红木礼盒</dd>
+			</dl>
+			<dl class="giftDet fl">
+				<dt class="text_l">礼盒随机开出100元京东卡<br />或定制商务套装</dt>
+				<dd class="text_l">剩余数量 :<span class="tgNum">100</span>个</dd>
+			</dl>
+			<div class="openBox"><span><span class="unit">所需爱心</span><span class="loveNum">128</span></span><a href=""><img src="images/openBox.png"/></a></div>
+			<img src="images/xian.png" class="xian"/>
+		</div>
+		<div class="silverBox box_l">
+			<dl class="giftPic fl">
+				<dt><img src="images/silverBox.png"/></dt>
+				<dd class="posAbs"><span>③</span> 白银礼盒</dd>
+			</dl>
+			<dl class="giftDet fl">
+				<dt class="text_r">礼盒随机开出500元京东卡<br />或USB充电水果杯</dt>
+				<dd class="text_r">剩余数量 :<span class="tgNum">10</span>个</dd>
+			</dl>
+			<div class="openBox"><span><span class="unit">所需爱心</span><span class="loveNum">518</span></span><a href=""><img src="images/openBox.png"/></a></div>
+			<img src="images/xian.png" class="xian"/>
+		</div>
+		<div class="goldBox box_r">
+			<dl class="giftPic">
+				<dt><img src="images/goldBox.png"/></dt>
+				<dd class="posAbs"><span>④</span> 黄金礼盒</dd>
+			</dl>
+			<dl class="giftDet fl">
+				<dt class="text_l">礼盒随机开出1000元京东卡<br />或2TB USB3.0便携式移动硬盘</dt>
+				<dd class="text_l">剩余数量 :<span class="tgNum">5</span>个</dd>
+			</dl>
+			<div class="openBox"><span><span class="unit">所需爱心</span><span class="loveNum">888</span></span><a href=""><img src="images/openBox.png"/></a></div>
+		</div>
+		<div class="bossBox">
+			<img src="images/bossBox.png" class="title"/>
+			<dl>
+				<dt><img src="images/bossIphone7.png"/></dt>
+				<dd>爱心数量第一名且数量不低于<b>4288</b>个的用户，同时未开启任何礼盒，将获得终级大奖：<b>iPhone7</b>一台</dd>
+				<dd><img src="images/xian.png" class="xian"/></dd>
+				<dd>
+					<p><img src="images/edafu.png" class="jieshao_title"/>e达福是由中国地产私募基金领跑者——盛诺金基金投资，专注于O2O电子商务及金融服务的移动互联网创新型平台，通过“互动、共创、分享”的产品体验，针对房地产、度假运动、健康养生、有机农业等领域，开展众销、众筹、理财等业务，为用户在吃、穿、住、娱、乐、购等方面提供更方便更实惠的服务，通过与用户的共创共享，实现财富增值和幸福生活。</p>
+					<p><img src="images/exiaobao.png" class="jieshao_title exiaobao"/>e销宝秉承分享经济的理念，针对e达福平台合作的房地产项目及有机生活、运动健康、度假养生等生活体验，以全民经纪人的模式实现全民共创、全民营销、全民赢利。所有注册加入e销宝的经纪人，没有性别、学历、年龄、职业限制，只要推荐客户并最终成交，经纪人就会获得佣金奖励。真正打破了销售壁垒，让每一个普通人能够参与到产品销售中，并通过分享信息获得回报。</p>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<!--分享链接显示弹幕-->
+	<div class="layer_fixed_1 fixed_back">
+		<div class="t_code_img_1">
+			<img src="images/jt_1.png" />
+		</div>
+	</div>
+	<!--领取15个爱心显示弹幕-->
+	<div class="fixed_code"></div>
+	<div class="t_code">
+		<span class="closes com_bg"><img src="images/icon1.png"/></span>
+		<p>扫描关注e达福或</p>
+		<p>微信搜索“edafu10”关注或参与投票</p>
+		<div class="t_code_img">
+			<img src="images/2cide.jpg" />
+		</div>
+		<p>长按图片，识别二维码</p>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			oWidth=$(".LoveValue")[0].offsetWidth/(document.documentElement.clientWidth/20)+9.4;
+//			console.log($(".LoveValue")[0].offsetWidth/(document.documentElement.clientWidth/20))
+			$(".aixin")[0].style.left=oWidth+'rem';
+		})
+	</script>
+	<script type="text/javascript">
+		/*投票成功弹层*/
+		$('.getLoveBox .shareLove').on('click',function(){
+			$('.layer_fixed_1').show();
+		});//点击分享求爱心，分享弹框显示
+		$('.layer_fixed_1').on('click',function(){
+			$('.layer_fixed_1').hide();
+		});//分享弹框出现时，再单击页面，分享弹框隐藏
+		$('.getLoveBox .getLove').on('click',function(){
+			$('.t_code').show();
+			$('.fixed_code').show()
+		});//领取15个爱心，二维码显示
+		$('.closes').on('click',function(){
+			$('.t_code').hide();
+			$('.fixed_code').hide()
+		});//点击关闭按钮，二维码隐藏
+	</script>
+</body>
+</html>
